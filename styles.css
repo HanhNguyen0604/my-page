@@ -1,0 +1,202 @@
+body {
+	width: 100%;
+	height: 100%;
+	
+}
+.logo{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 40px;
+	color: red;
+	margin: 20px;
+	font-weight: bold;
+
+}
+.navbar-collapse{
+	position: relative;
+	justify-content: flex-end;
+}
+.navbar-nav{
+	position: absolute;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(160, 25, 226, 0.5);
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.header{
+	width: 100%;
+	height: 800px;
+	
+
+}
+.title {
+    display: flex;
+    color: violet;
+    margin-bottom: 100px;
+}
+
+.line{
+	width: 200px;
+	height: 1px;
+	background: violet;
+	margin-top: 23px;
+	margin-left: 15px;
+}
+.about{
+	width: 100%;
+	height: 800px;
+	padding-top: 50px;
+	margin-top: 100px;
+  
+    color: #ce3af1;
+  
+}
+.image-me{
+	position: relative;
+	width: 255px;
+	height: 360px;
+}
+.image-me img{
+	width: 255px;
+	height: 360px;
+	position: absolute;
+
+}
+.img-background {
+    position: absolute;
+    width: 255px;
+    height: 360px;
+    background-color: #ee82ee52;
+    opacity: 1;
+    top: 0;
+}
+.img-background:hover{
+	opacity: 0;
+}
+.visible{
+	visibility: visible;
+	transition: 1s;
+	opacity: 1
+}
+
+
+.experience{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+.images img{
+	height: 300px;
+	width: 400px;
+	position: relative;
+}
+.gray {
+    width: 400px;
+    height: 300px;
+    background-color: gray;
+    top: 0;
+    left: 15px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: 1;
+    transition: 0.5s;
+}
+.gradient {
+	width: 400px;
+    height: 300px;
+     position: absolute;
+     background-image:-webkit-linear-gradient(45deg, #0000ff45 0%, #fffc1959 50%, #ffff0069 100%);
+     transition: 0.2s;
+    top: 0;
+    left: 15px;
+    z-index: 2;
+  
+    opacity: 0;
+}
+.square {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    left: 45px;
+    border: 3px solid white;
+	  transition: 0.2s;
+	  opacity: 0;
+	  transform: scale(0);
+}
+.word-title {
+    font-size: 40px;
+    font-family: sans-serif;
+    top: 40%;
+    left: 30%;
+    z-index: 4;
+    position: absolute;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+     transition: 0.5s;
+}
+.word-content {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    color: white;
+    z-index: 5;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: 0.2s;
+    opacity: 0;
+    transform: scale(0);
+}
+.item:hover .word-title {
+    top: 35%;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+.item:hover .word-content {
+    transition: 0.2s;
+    opacity: 1;
+    transform: scale(1);
+}
+.item:hover .square {
+    transition: 0.2s;
+    opacity: 1;
+    transform: scale(1);
+}
+.item:hover .gray {
+    opacity: 0;
+}
+.item:hover .gradient {
+    opacity: 1;
+}
+
+
+.work{
+	width: 100%;
+	height: 700px;
+	
+}
+.contact{
+	width: 100%;
+	height: 600px;
+
+
+}
+.back-to-top{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+
+
+}
+.fa-chevron-circle-up{
+	color: red;
+	font-size: 40px;
+
+}	
